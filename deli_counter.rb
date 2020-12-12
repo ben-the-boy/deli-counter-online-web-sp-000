@@ -17,5 +17,5 @@ def take_a_number(array, name)
   array.each.with_index(1) do |person, index|
     new_array << "#{index}"
   end
-  puts "Welcome, #{name}. You are currently #{new_array[-1]} in line."
+  puts "Welcome, #{name}. You are currently number #{new_array[-1]} in line."
 end
