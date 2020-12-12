@@ -19,3 +19,10 @@ def take_a_number(array, name)
   end
   puts "Welcome, #{name}. You are number #{new_array[-1]} in line."
 end
+
+def now_serving(array)
+  if array.size == 0
+    puts "There is nobody waiting to be served!"
+  else
+    
+end
